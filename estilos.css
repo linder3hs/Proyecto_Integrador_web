@@ -1,0 +1,18 @@
+body {
+  margin-top: 50px;
+}
+
+.form-control-placeholder {
+  position: absolute;
+  top: 0;
+  padding: 7px 0 0 13px;
+  pointer-events: none;
+  color: #aaa;
+  transition: all 200ms;
+}
+
+.form-control:focus + .form-control-placeholder {
+  color: #000;
+  font-size: 75%;
+  top: -25px;
+}
